@@ -63,9 +63,9 @@ public class Gaming_Arena_Management_System {
                 file.createNewFile();
                 printWriter = new PrintWriter(file);
                 bufferedWriter = new BufferedWriter(printWriter);
-                bufferedWriter.write("haroon");
+                bufferedWriter.write("Username");
                 bufferedWriter.write("\n");
-                bufferedWriter.write("haroon");
+                bufferedWriter.write("Password");
                 bufferedWriter.close();
                 printWriter.close();
             } else {
