@@ -217,8 +217,8 @@ public class Gaming_Arena_Management_System {
         frame.add(panel);
 
         //creating elements
-        button1 = new JButton("Start Time");
-        button2 = new JButton("Stop Time");
+        button1 = new JButton("Alot");
+        button2 = new JButton("Remove");
         button3 = new JButton("Account");
         button4 = new JButton("Reserves");
         button5 = new JButton("Log Out");
@@ -297,8 +297,8 @@ public class Gaming_Arena_Management_System {
         frame.add(panel);
 
         //creating elements
-        button1 = new JButton("Start Time");
-        button2 = new JButton("Stop Time");
+        button1 = new JButton("Alot");
+        button2 = new JButton("Remove");
         button3 = new JButton("Account");
         button4 = new JButton("Reserves");
         button5 = new JButton("Log Out");
@@ -396,8 +396,8 @@ public class Gaming_Arena_Management_System {
         frame.add(panel);
 
         //creating elements
-        button1 = new JButton("Start Time");
-        button2 = new JButton("Stop Time");
+        button1 = new JButton("Alot");
+        button2 = new JButton("Remove");
         button3 = new JButton("Account");
         button4 = new JButton("Reserves");
         button5 = new JButton("Log Out");
@@ -449,8 +449,8 @@ public class Gaming_Arena_Management_System {
         frame.add(panel);
 
         //creating elements
-        button1 = new JButton("Start Time");
-        button2 = new JButton("Stop Time");
+        button1 = new JButton("Alot");
+        button2 = new JButton("Remove");
         button3 = new JButton("Account");
         button4 = new JButton("Reserves");
         button5 = new JButton("Log Out");
