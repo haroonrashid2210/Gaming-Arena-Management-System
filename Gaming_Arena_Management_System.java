@@ -44,9 +44,9 @@ public class Gaming_Arena_Management_System {
 
     public static void main(String[] args) {
         frame.setDefaultCloseOperation(WindowConstants.EXIT_ON_CLOSE);
-        frame.setVisible(true);
         frame.setSize(575,300);
         frame.setResizable(false);
+        frame.setVisible(true);
 
         // making aall array false
 
@@ -63,9 +63,9 @@ public class Gaming_Arena_Management_System {
                 file.createNewFile();
                 printWriter = new PrintWriter(file);
                 bufferedWriter = new BufferedWriter(printWriter);
-                bufferedWriter.write("Username");
+                bufferedWriter.write("haroon");
                 bufferedWriter.write("\n");
-                bufferedWriter.write("Password");
+                bufferedWriter.write("harry");
                 bufferedWriter.close();
                 printWriter.close();
             } else {
@@ -105,13 +105,13 @@ public class Gaming_Arena_Management_System {
         panel.add(button1);
 
         //setting location
-        label1.setBounds(130,70,70,20);
+        label1.setBounds(130,70,80,20);
         textField1.setBounds(230,70,150,20);
 
         label2.setBounds(130,110,70,20);
         textField2.setBounds(230,110,150,20);
 
-        button1.setBounds(130,150,70,25);
+        button1.setBounds(130,150,90,25);
 
         //################################################################ fileread
 
@@ -162,8 +162,8 @@ public class Gaming_Arena_Management_System {
         frame.add(panel);
 
         //creating elements
-        button1 = new JButton("Start Time");
-        button2 = new JButton("Stop Time");
+        button1 = new JButton("Alot");
+        button2 = new JButton("Remove");
         button3 = new JButton("Account");
         button4 = new JButton("Reserves");
         button5 = new JButton("Log Out");
@@ -200,7 +200,7 @@ public class Gaming_Arena_Management_System {
         button3.setBounds(230,10,100,25);
         button4.setBounds(340,10,100,25);
         button5.setBounds(450,10,100,25);
-        button6.setBounds(140,180,260,25);
+        button6.setBounds(140,180,300,25);
         button7.setBounds(220,220,100,25);
 
         label1.setBounds(170,80,300,50);
