@@ -12,5 +12,3 @@ A management system made for gaming arenas to keep record of customers to manage
 4. __Account__ : Admin can check the number of custers and the total balance he have.
 5. __Search__: Admin can search any previous customer record.
 6. __Change username and password__ : Admin can change its username and password.
-### Software Pictures
-Folder named software pictures contains screen shots of software
